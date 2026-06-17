@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated": "2026-05-18T15:57:02.229100",
+    "generated": "2026-06-17T21:08:42.598495",
     "companies": 500,
     "documents": 1503,
     "years": [
@@ -18,41 +18,41 @@
     "SYNTHETIC": 1485
   },
   "soft_factors_summary": {
-    "Environmental": 0.9694342719894234,
-    "Social": 0.9685385931758789,
-    "Governance": 0.9768183481542531,
-    "Overall": 0.9715970711065185
+    "Environmental": 0.9681475511772883,
+    "Social": 0.9708030337996573,
+    "Governance": 0.977928748438966,
+    "Overall": 0.9722931111386373
   },
   "hard_factors_summary": {
-    "Environmental": 0.4996618401755995,
-    "Social": 0.5008001267129715,
-    "Governance": 0.501397492657285,
-    "Overall": 0.5006198198486186
+    "Environmental": 0.49736460147106953,
+    "Social": 0.5002669084364451,
+    "Governance": 0.49548186092937047,
+    "Overall": 0.49770445694562837
   },
   "correlation_analysis": {
     "Environmental": {
-      "pearson_r": -0.006725335469357449,
-      "pearson_p": 0.7944646303776589
+      "pearson_r": 0.014592602416846488,
+      "pearson_p": 0.5718742432489482
     },
     "Social": {
-      "pearson_r": 0.0263754766256728,
-      "pearson_p": 0.30684439768941113
+      "pearson_r": 0.0073608417151048,
+      "pearson_p": 0.7755402917380925
     },
     "Governance": {
-      "pearson_r": -0.012782295378464727,
-      "pearson_p": 0.6204879491448216
+      "pearson_r": -0.024973762967675985,
+      "pearson_p": 0.33327325766351795
     },
     "overall": {
-      "pearson_r": -0.009813887244916919,
-      "pearson_p": 0.703824625657477
+      "pearson_r": 0.005882596007671716,
+      "pearson_p": 0.8197458205455092
     }
   },
   "key_findings": [
-    "Soft-Hard correlation (overall): r = -0.010 (p = 0.7038)",
+    "Soft-Hard correlation (overall): r = 0.006 (p = 0.8197)",
     "Sample size: 1503 documents across 500 companies",
     "Data sources: 18 real SEC filings, 1485 synthetic documents",
     "Average soft factor score (narrative intensity): 0.972",
-    "Average hard factor score (actual performance): 0.501",
+    "Average hard factor score (actual performance): 0.498",
     "Interpretation: Weak correlation suggests ESG narrative disclosure may not align with actual performance metrics"
   ]
 }

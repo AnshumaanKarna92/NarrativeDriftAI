@@ -48,6 +48,9 @@ yarn-error.log
 
 # Build output
 *.pyc
+
+# External directories
+temp_NarrativeDriftAI/
 .pytest_cache/
 .coverage
 htmlcov/
