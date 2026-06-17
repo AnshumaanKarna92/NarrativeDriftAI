@@ -1,0 +1,58 @@
+{
+  "metadata": {
+    "generated": "2026-05-18T15:57:02.229100",
+    "companies": 500,
+    "documents": 1503,
+    "years": [
+      2022,
+      2023,
+      2024,
+      2025,
+      2026
+    ],
+    "real_companies": 5,
+    "synthetic_companies": 495
+  },
+  "data_sources": {
+    "SEC_EDGAR": 18,
+    "SYNTHETIC": 1485
+  },
+  "soft_factors_summary": {
+    "Environmental": 0.9694342719894234,
+    "Social": 0.9685385931758789,
+    "Governance": 0.9768183481542531,
+    "Overall": 0.9715970711065185
+  },
+  "hard_factors_summary": {
+    "Environmental": 0.4996618401755995,
+    "Social": 0.5008001267129715,
+    "Governance": 0.501397492657285,
+    "Overall": 0.5006198198486186
+  },
+  "correlation_analysis": {
+    "Environmental": {
+      "pearson_r": -0.006725335469357449,
+      "pearson_p": 0.7944646303776589
+    },
+    "Social": {
+      "pearson_r": 0.0263754766256728,
+      "pearson_p": 0.30684439768941113
+    },
+    "Governance": {
+      "pearson_r": -0.012782295378464727,
+      "pearson_p": 0.6204879491448216
+    },
+    "overall": {
+      "pearson_r": -0.009813887244916919,
+      "pearson_p": 0.703824625657477
+    }
+  },
+  "key_findings": [
+    "Soft-Hard correlation (overall): r = -0.010 (p = 0.7038)",
+    "Sample size: 1503 documents across 500 companies",
+    "Data sources: 18 real SEC filings, 1485 synthetic documents",
+    "Average soft factor score (narrative intensity): 0.972",
+    "Average hard factor score (actual performance): 0.501",
+    "Interpretation: Weak correlation suggests ESG narrative disclosure may not align with actual performance metrics"
+  ]
+}

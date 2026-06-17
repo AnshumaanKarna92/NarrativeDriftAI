@@ -1,0 +1,17 @@
+pandas
+numpy
+scipy
+scikit-learn
+sentence-transformers
+torch
+transformers
+requests
+beautifulsoup4
+matplotlib
+seaborn
+yfinance
+statsmodels
+openpyxl
+xlrd
+python-dotenv
+tqdm
